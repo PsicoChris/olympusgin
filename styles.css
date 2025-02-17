@@ -102,7 +102,7 @@ header .carrito a {
 
 .producto-card img {
     width: 100%;
-    height: auto;
+    height: 400px;
     border-radius: 8px;
     margin-bottom: 15px;
 }
