@@ -7,7 +7,7 @@
 
 /* Fuente y cuerpo */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'heorot', Arial;
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
@@ -89,6 +89,7 @@ header .carrito a {
 .productos h2 {
     margin-bottom: 30px;
     font-size: 2rem;
+    text-shadow: gray 0.1em 0.1em 0.2em;
 }
 
 .producto-card {
@@ -127,6 +128,21 @@ header .carrito a {
     border-radius: 5px;
 }
 
+
+.video {
+    text-align: center; /* Centra el texto (h2) dentro de la sección */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; /* Centra el iframe horizontalmente */
+    align-items: center; /* Asegura que el iframe esté centrado verticalmente si es necesario */
+    height: 100%; /* O cualquier altura que desees para la sección */
+}
+
+iframe {
+    max-width: 100%; 
+}
 /* Pie de página */
 footer {
     background-color: #333;
