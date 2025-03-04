@@ -1,0 +1,149 @@
+/* Reseteo de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuente y cuerpo */
+body {
+    font-family: 'heorot', Arial;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+header .logo h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .carrito a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Producto */
+.producto {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: white;
+    text-align: left;
+}
+
+.producto-imagen img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto-detalle {
+    margin-left: 30px;
+    max-width: 500px;
+}
+
+.producto-detalle h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-shadow: gray 0.1em 0.1em 0.2em;
+}
+
+.producto-detalle p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.producto-detalle strong {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Formulario de Personalización */
+.personalizacion-form label {
+    font-size: 1rem;
+    color: #333;
+    display: block;
+    margin-top: 15px;
+}
+
+.personalizacion-form input,
+.personalizacion-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f4f4f4;
+}
+
+.personalizacion-form button {
+    margin-top: 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.personalizacion-form button:hover {
+    background-color: #e65c00;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .socials a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .socials a:hover {
+    text-decoration: underline;
+}
+
+/* Ajustes adicionales para hacer que los enlaces sean más visibles en hover */
+header nav ul li a:hover,
+footer .socials a:hover,
+.personalizacion-form button:hover {
+    color: #ff6600;
+}
