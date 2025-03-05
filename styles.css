@@ -18,13 +18,22 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: white;
+    background: 
+        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.3) 15%, transparent 16%) 0 0,
+        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.3) 15%, transparent 16%) 5px 5px,
+        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.3) 15%, transparent 16%) 10px 10px,
+        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.3) 15%, transparent 16%) 15px 15px;
+    background-color: #3d3d3d; /* Color base oscuro para el fondo */
+    background-size: 20px 20px; /* Tamaño del patrón de la textura */
+    background-repeat: repeat; /* Hace que el patrón se repita */
     padding: 1rem 2rem;
+    color: white;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra interna para darle profundidad */
 }
 
 header .logo h1 {
     font-size: 1.8rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Sombra en el texto para mayor contraste */
 }
 
 header nav ul {
@@ -128,7 +137,7 @@ header .carrito a {
     border-radius: 5px;
 }
 
-
+/* Video */
 .video {
     text-align: center; /* Centra el texto (h2) dentro de la sección */
 }
@@ -143,6 +152,7 @@ header .carrito a {
 iframe {
     max-width: 100%; 
 }
+
 /* Pie de página */
 footer {
     background-color: #333;
