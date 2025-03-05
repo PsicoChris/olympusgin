@@ -19,10 +19,10 @@ header {
     justify-content: space-between;
     align-items: center;
     background: 
-        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.3) 15%, transparent 16%) 0 0,
-        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.3) 15%, transparent 16%) 5px 5px,
-        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.3) 15%, transparent 16%) 10px 10px,
-        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.3) 15%, transparent 16%) 15px 15px;
+        radial-gradient(circle at 50% 50%, rgba(239, 184, 16, 0.3) 15%, transparent 16%) 0 0,
+        radial-gradient(circle at 50% 50%, rgba(239, 184, 16, 0.3) 15%, transparent 16%) 5px 5px,
+        radial-gradient(circle at 50% 50%, rgba(239, 184, 16, 0.3) 15%, transparent 16%) 10px 10px,
+        radial-gradient(circle at 50% 50%, rgba(239, 184, 16, 0.3) 15%, transparent 16%) 15px 15px;
     background-color: #3d3d3d; /* Color base oscuro para el fondo */
     background-size: 20px 20px; /* Tamaño del patrón de la textura */
     background-repeat: repeat; /* Hace que el patrón se repita */
